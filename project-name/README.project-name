@@ -4,6 +4,9 @@ Affiliations: (1) Department of Physics, University of Bristol, (2) Department o
 Start date: January 01, 2000
 End date: December 31, 2000
 
+Description:
+This is a project to study A, B and C.  It models D, E and F. X, Y and Z are measured.
+
 Data Structure
     - publication
         + Lennard-Jones, John, and Gibbs, Josiah Willard, "Project-name", J. Chem. Phys., (1) 1-11, 2001
@@ -14,6 +17,6 @@ Data Structure
         + post-processing
     - data
         + molecular-parameters
-        + condition
+        + n1v1t298 (N=1, V=1 nm^3, T=298K)
             o simulation
             o post-processing
