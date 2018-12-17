@@ -1,0 +1,11 @@
+    Is the repository one that your researcher community would normally use to find the your research data?
+    Can your data be uploaded in a format useful to others in your discipline (and other disciplines)?
+    Can you restrict access to your data as needed (e.g., your data has personal identifiers or is proprietary)?
+    Can the data be cited and found in a unique and persistent way (e.g., with a data citation and digital object identifier—DOI)?
+    Are preservation actions being taken by the repository to maintain the integrity of your research data (e.g., steps to maintain file integrity, keeping multiple copies, etc.)?
+    How long are your data to be retained in the repository? What will occur at the end of that data retention period? 
+    Is there support provided for data documentation and/or data deposit? 
+    Are your rights as data depositor clear?
+    Are the rights and licenses under which your data can be accessed and used clear? (e.g., through Terms of Use)
+    What will it cost you to have your data deposited in this repository?
+
