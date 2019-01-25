@@ -55,12 +55,12 @@
   two children at (0.5,-0.7) and (0.5,-1.4)},
   edge from parent path={(\tikzparentnode.south) |- (\tikzchildnode.west)}]
   \node {project-name}
-    child { node [optional] {README.project-name (Project and its data structure overview)}}
+    child { node [optional] {README.project-name.md (Project and its data structure overview)}}
     child { node {publication}    
-    	child { node [optional] {README.publication}}
+    	child { node [optional] {README.publication.md}}
 	    child { node [optional] {Tex files (*tex, *bib, publisher format files)}}
     	child { node {figures}
-    	    child { node [optional] {README.figures (Explanation of how to generate figures)}}
+    	    child { node [optional] {README.figures.md (Explanation of how to generate figures)}}
     		child { node [optional] {figures}}
     	}				
 	    child [missing] {}				
@@ -73,19 +73,19 @@
     child [missing] {}	
     child { node [selected] {code}
        	child { node {pre-processing}
-    	    child { node [optional] {README.pre (pre-processing scripts instructions)}}
+    	    child { node [optional] {README.pre-processing.md (pre-processing scripts instructions)}}
        		child { node [optional] {code files}}
        	}				
 	    child [missing] {}				
 	    child [missing] {}	
        	child { node {simulation}
-    	    child { node [optional] {README.simulation (Compilation instructions)}}
+    	    child { node [optional] {README.simulation.md (Compilation instructions)}}
        		child { node [optional] {code files}}
        	}				
 	    child [missing] {}				
 	    child [missing] {}
        	child { node {post-processing}
-    	    child { node [optional] {README.post (post-processing scripts instructions)}}
+    	    child { node [optional] {README.post-processing.md (post-processing scripts instructions)}}
        		child { node [optional] {code files}}
        	}				
 	    child [missing] {}				
@@ -108,7 +108,7 @@
   edge from parent path={(\tikzparentnode.south) |- (\tikzchildnode.west)}]
   \node {project-name (continued)}
     child { node {Data}
-        child { node [optional] {README.data}
+        child { node [optional] {README.data.md}
         	child { node [optional] {List the types of models}}
 	        child { node [optional] {List the conditions run}}
    	        child { node [optional] {List the simulation files and how to run the simulation}}
@@ -120,7 +120,7 @@
 		child [missing] {}			
        	child { node {molecular-parameters}
     	    child { node {molecule-name1}
-    	    	 child { node [optional] {Readme.molecule-name1 (explanation of molecule parameter files)}}
+    	    	 child { node [optional] {README.molecule-name1.md (explanation of molecule parameter files)}}
     	    	 child { node [optional] {parameter files}}
     	    }		
 	 	    child [missing] {}
