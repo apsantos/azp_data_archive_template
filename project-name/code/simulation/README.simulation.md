@@ -1,7 +1,6 @@
-Scripts used for simulations
+# Code used for simulations
 
-gmx
-    Gromacs version X
-    Run:
-        gmx 
+- `gmx`
+    **Gromacs version X**
+    Run: `gmx` 
 

@@ -1,18 +1,19 @@
 Project publication
 
-Files:
-    -paper.tex
-        article text
-    -paper.bib
-        article references
-    -figures/
-        figures
+## Files:
+-paper.tex:
+    article text
+-paper.bib:
+    article references
+-figures/:
+    figures
 
-compile:
-    latex paper.tex
+## compile:
+`latex paper.tex`
 
 
-Bibtex entry for this publication:
+## Bibtex entry for this publication:
+```
     @article{AAA2001
     author = {Lennard-Jones, John and Gibbs, Josiah Willard},
     doi = {10.1039/C7SM01721A},
@@ -24,4 +25,4 @@ Bibtex entry for this publication:
     volume = {1},
     year = {2001}
     }
-
+```
